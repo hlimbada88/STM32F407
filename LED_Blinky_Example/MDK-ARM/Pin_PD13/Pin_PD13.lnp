@@ -1,0 +1,24 @@
+--cpu=Cortex-M4.fp
+"pin_pd13\startup_stm32f407xx.o"
+"pin_pd13\main.o"
+"pin_pd13\stm32f4xx_it.o"
+"pin_pd13\stm32f4xx_hal_msp.o"
+"pin_pd13\stm32f4xx_hal_tim.o"
+"pin_pd13\stm32f4xx_hal_tim_ex.o"
+"pin_pd13\stm32f4xx_hal_rcc.o"
+"pin_pd13\stm32f4xx_hal_rcc_ex.o"
+"pin_pd13\stm32f4xx_hal_flash.o"
+"pin_pd13\stm32f4xx_hal_flash_ex.o"
+"pin_pd13\stm32f4xx_hal_flash_ramfunc.o"
+"pin_pd13\stm32f4xx_hal_gpio.o"
+"pin_pd13\stm32f4xx_hal_dma_ex.o"
+"pin_pd13\stm32f4xx_hal_dma.o"
+"pin_pd13\stm32f4xx_hal_pwr.o"
+"pin_pd13\stm32f4xx_hal_pwr_ex.o"
+"pin_pd13\stm32f4xx_hal_cortex.o"
+"pin_pd13\stm32f4xx_hal.o"
+"pin_pd13\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "Pin_PD13\Pin_PD13.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Pin_PD13.map" -o Pin_PD13\Pin_PD13.axf
